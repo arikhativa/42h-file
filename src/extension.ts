@@ -26,13 +26,13 @@ function enterText() {
 		}
 		editor.edit(editBuilder => {
 			editBuilder.insert(startLine.range.end, `#ifndef ${fileName}\n# define ${fileName}`);
-			editBuilder.insert(lastLine.range.start, "\n#endif");
+			editBuilder.insert(lastLine.range.start, "\n\n#endif");
 		});
     }
 }
 
 export function activate(context: vscode.ExtensionContext) {
-	let disposable = vscode.commands.registerCommand('42.h.protect', () => {
+	let disposable = vscode.commands.registerCommand('h.protect', () => {
 		enterText();
 	});
 
