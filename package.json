@@ -15,7 +15,7 @@
 		"Other"
 	],
 	"activationEvents": [
-        "*"
+		"onCommand:h.protect"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
