@@ -16,8 +16,8 @@
 	"contributes": {
 		"commands": [
 			{
-				"command": "42header.helloWorld",
-				"title": "Hello World"
+				"command": "42.h.protect",
+				"title": "file.h protection"
 			}
 		]
 	},
