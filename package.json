@@ -1,7 +1,7 @@
 {
-  "name": ".h-protect",
-	"displayName": ".h-protect",
-	"description": ".h-protect",
+  "name": "h-protect",
+	"displayName": "h-protect",
+	"description": "h-protect",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "1.68.0"
@@ -17,7 +17,7 @@
 		"commands": [
 			{
 				"command": "h.protect",
-				"title": ".h-protect"
+				"title": "h-protect"
 			}
 		]
 	},
