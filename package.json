@@ -3,13 +3,14 @@
 	"displayName": "H Protect",
 	"description": "adding #ifndef protection to your file",
 	"version": "0.0.1",
+	"publisher": "arikhativa",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/arikhativa/h-protect.git"
 	},
 	"license": "MIT",
 	"engines": {
-		"vscode": "1.68.0"
+		"vscode": "^1.68.1"
 	},
 	"categories": [
 		"Other"
